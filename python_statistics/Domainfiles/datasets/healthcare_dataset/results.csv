@@ -1,0 +1,53 @@
+Metric,Value
+P_diabetes,0.16763963963963963
+P_no_diabetes,0.8323603603603604
+diabetes_age_dist,"Age
+Senior         0.305245
+Middle-aged    0.297829
+Elderly        0.210985
+Young          0.185942
+Name: proportion, dtype: float64"
+non_diabetes_age_dist,"Age
+Senior         0.296238
+Middle-aged    0.293597
+Elderly        0.220344
+Young          0.189822
+Name: proportion, dtype: float64"
+diabetes_gender_dist,"Gender
+Male      0.500107
+Female    0.499893
+Name: proportion, dtype: float64"
+non_diabetes_gender_dist,"Gender
+Male      0.500498
+Female    0.499502
+Name: proportion, dtype: float64"
+diabetes_bloodtype_dist,"BloodType
+A+     0.130374
+B+     0.127687
+AB+    0.126075
+A-     0.125430
+O+     0.123710
+B-     0.123710
+AB-    0.122420
+O-     0.120593
+Name: proportion, dtype: float64"
+non_diabetes_bloodtype_dist,"BloodType
+AB-    0.125682
+A-     0.125595
+B-     0.125400
+AB+    0.124989
+O+     0.124816
+B+     0.124621
+O-     0.124578
+A+     0.124318
+Name: proportion, dtype: float64"
+diabetes_testresults_dist,"TestResults
+Abnormal        0.340499
+Normal          0.332115
+Inconclusive    0.327386
+Name: proportion, dtype: float64"
+non_diabetes_testresults_dist,"TestResults
+Abnormal        0.334639
+Normal          0.333947
+Inconclusive    0.331414
+Name: proportion, dtype: float64"
