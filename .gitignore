@@ -1,0 +1,17 @@
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore Python cache and virtual environments
+__pycache__/
+venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore checkpoints
+.ipynb_checkpoints/
+
+# Ignore backup files
+*.bak
