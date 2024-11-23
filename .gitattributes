@@ -1,0 +1,15 @@
+# Normalize line endings for text files
+* text=auto
+
+# Explicitly define rules for file types
+*.ipynb text eol=lf        # Jupyter Notebook files use LF line endings
+*.md text eol=lf           # Markdown files use LF line endings
+*.jpg binary               # JPG files are binary (no line ending conversions)
+*.png binary               # PNG files are binary
+
+# Ignore diff for binary files
+*.jpg -diff
+*.png -diff
+
+# Enable diff for .ipynb files (optional, requires nbstripout or nbdime for better readability)
+*.ipynb diff
